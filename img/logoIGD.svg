@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- dimensions in the header depend on width and height given in the image tag -->
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="120">
+  <!--cercle noir-->
+  <circle cx="50" cy="72" r="40" stroke="black" stroke-width="15" fill="none" />
+  <!--barre verticale rouge au milieu-->
+  <rect x="41" y="25" width="18" height="94" fill="red" />
+  <!--rond rouge au dessus-->
+  <circle cx="50" cy="10" r="10" fill="red" />
+  <!--barre verticale noire en haut et à droite du I rouge-->
+  <rect x="59" y="32" width="12" height="30" fill="black" />
+  <!--barre verticale noire en bas et à gauche du I rouge-->
+  <rect x="29" y="82" width="12" height="30" fill="black" />
+  <!--barre verticale transparente en haut et à gauche du I rouge-->
+  <rect x="29" y="25" width="12" height="22" fill="rgb(241, 241, 241, 0.9)" />
+</svg>

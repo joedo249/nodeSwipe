@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json" />
+    <script src="./js/stickyNavbar.js" defer></script>
+    <script src="./js/currenLink.js" defer></script>
+    <script src="./js/touchmove.js" defer></script>
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <header>
+        <div id="logo">
+          <img
+            class="img"
+            src="./img/logoIGD.svg"
+            id="logoIGD"
+            alt="logo"
+            width="30"
+            height="36"
+          />
+        </div>
+
+        <div id="firme">
+          <h1>Cabinet d'avocats</h1>
+        </div>
+      </header>
+
+      <nav class="fixnavbar">
+        <ul>
+          <li><a href="home.html" class="current" class="first">Home</a></li>
+          <li><a href="expertise.html">Expertise</a></li>
+          <li><a href="honoraires.html">Honoraires</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="gestZone">
+        <section>
+          <article id="cabinet">
+            <h1>Le cabinet IGD Avocats</h1>
+            <p>
+              Depuis sa création en 1995, le cabinet IGD Avocats vous conseille
+              et, lors des procédures judiciaires, vous assiste ou vous
+              représente sur tout le territoire français.
+            </p>
+            <p>
+              La force de notre cabinet repose sur une grande maîtrise de son
+              cœur de métier et sur la diversité de sa clientèle qui va des
+              grandes entreprises aux particuliers.
+            </p>
+            <h2>Conseil et activité contentieuse</h2>
+            <p>
+              La pratique quotidienne des Juridictions nous permet d'offrir un
+              conseil pertinent intégrant le risque contentieux, alors que notre
+              activité de conseil conforte, dans nos domaines de compétence, la
+              qualité de l'argumentation qui sera développée à la barre.
+            </p>
+            <h2>Disponibilité et souplesse</h2>
+            <p>
+              Le choix de consacrer notre pratique à certains aspects du droit
+              nous permet d'offrir une prestation aussi efficace et productive
+              que possible et ainsi d'en optimiser le coût.
+            </p>
+          </article>
+        </section>
+      </div>
+      <!-- /gestZone-->
+      <button type="button" class="button" onclick="location.href='expertise.html'">
+        Pour en savoir plus sur notre cabinet !
+      </button>
+      <footer>
+        <h4>Accueil</h4>
+        <h4>Plan du site</h4>
+        <h4>Mentions légales</h4>
+      </footer>
+    </div>
+    <!-- /wrapper -->
+  </body>
+</html>
