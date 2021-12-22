@@ -13,3 +13,5 @@ function scrollFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+exports.scrollFunction

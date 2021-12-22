@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 
+
 // register view engine
 app.set("view engine", "ejs");
 
@@ -20,6 +21,11 @@ app.get("/expertise", (req, res) => {
 
 app.get("/honoraires", (req, res) => {
   res.render("honoraires", { title: "Honoraires" });
+});
+
+
+app.get("/contact", (req, res) => {
+  res.render("contact", { title: "Contact" });
 });
 
 app.use((req, res) => {
