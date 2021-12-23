@@ -4,10 +4,7 @@
     <meta charset="UTF-8" />
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="manifest" href="manifest.json" />
-    <script src="./js/stickyNavbar.js" defer></script>
+    <link rel="stylesheet" href="/style.css" />
     <script src="./js/currenLink.js" defer></script>
     <script src="./js/touchmove.js" defer></script>
   </head>
@@ -33,14 +30,15 @@
 
       <nav class="fixnavbar">
         <ul>
-          <li><a href="home.html" class="current" class="first">Home</a></li>
-          <li><a href="expertise.html">Expertise</a></li>
-          <li><a href="honoraires.html">Honoraires</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="/" class="current" class="first">Home</a></li>
+          <li><a href="./expertise">Expertise</a></li>
+          <li><a href="./honoraires">Honoraires</a></li>
+          <li><a href="./contact">Contact</a></li>
         </ul>
       </nav>
 
       <div class="gestZone">
+    
         <section>
           <article id="cabinet">
             <h1>Le cabinet IGD Avocats</h1>
@@ -74,11 +72,8 @@
       <button type="button" class="button" onclick="location.href='expertise.html'">
         Pour en savoir plus sur notre cabinet !
       </button>
-      <footer>
-        <h4>Accueil</h4>
-        <h4>Plan du site</h4>
-        <h4>Mentions légales</h4>
-      </footer>
+
+      <%- include('../partials/footer.ejs') %>
     </div>
     <!-- /wrapper -->
   </body>

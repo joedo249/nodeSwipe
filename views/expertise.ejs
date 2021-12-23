@@ -5,14 +5,12 @@
     <title>sw | Expertise</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/style.css" />
-    <!-- <script src="../js/stickyNavbar.js" defer></script> -->
   </head>
 
   <body>
     <div id="wrapper">
-      <header>
-        <h1>Cabinet d'avocats</h1>
-      </header>
+
+      <%- include('../partials/header.ejs') %> 
 
       <%- include('../partials/nav.ejs') %>
 
@@ -51,7 +49,6 @@
               <li>Séparation: prestation compensatoire, domicile conjugal…</li>
               <li>Violences conjugales : ordonnance de protection…</li>
             </ul>
-            >
             <h2>Protection des personnes vulnérables</h2>
             <ul>
               <li>Tutelle</li>
@@ -90,13 +87,36 @@
               <li>Séparation: prestation compensatoire, domicile conjugal…</li>
               <li>Violences conjugales : ordonnance de protection…</li>
             </ul>
-            >
-            <h2>Protection des personnes vulnérables</h2>
+            <p>
+              Le cabinet IGD Avocats saura vous conseiller pour choisir la
+              stratégie la plus adaptée à vos besoins et vous assister tout au
+              long de la procédure qui sera mise en œuvre pour assurer la
+              défense de vos intérêts.
+            </p>
+          </article>
+          <article class="expertiseField">
+            <h1>Droit de la famille ter</h1>
+            <p>
+              Le droit de la famille est la branche du droit civil qui régit les
+              relations juridiques entre des personnes physiques unies par un
+              lien de parenté, d’alliance ou d’adoption.
+            </p>
+            <p>
+              Le Cabinet vous conseille pour le règlement amiable ou contentieux
+              des différends familiaux:
+            </p>
+            <h2>Litiges concernant les couples</h2>
             <ul>
-              <li>Tutelle</li>
-              <li>Curatelle</li>
-              <li>Sauvegarde de justice</li>
-              <li>Hospitalisation d'office</li>
+              <li>
+                Divorce: consentement mutuel, altération définitive du lien
+                conjugal, faute…
+              </li>
+              <li>
+                <abbr title="Pacte civil de solidarité">PACS</abbr> ou
+                concubinage: droits, rupture…
+              </li>
+              <li>Séparation: prestation compensatoire, domicile conjugal…</li>
+              <li>Violences conjugales : ordonnance de protection…</li>
             </ul>
             <p>
               Le cabinet IGD Avocats saura vous conseiller pour choisir la
@@ -105,6 +125,7 @@
               défense de vos intérêts.
             </p>
           </article>
+
         </section>
 
       </div>
@@ -120,11 +141,9 @@
           réglementation abondante et en perpétuelle évolution qui suscite des
           questions et litiges très nombreux.
         </p>
-      <footer>
-        <h4>Accueil</h4>
-        <h4>Plan du site</h4>
-        <h4>Mentions légales</h4>
-      </footer>
+        
+        <%- include('../partials/footer.ejs') %>
+
     </div>
     <!-- /wrapper -->
   </body>

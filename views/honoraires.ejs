@@ -5,17 +5,14 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/style.css" />
-    <!-- <script src="../js/stickyNavbar.js" defer></script> -->
   </head>
 
   <body>
     <div id="wrapper">
-      <header>
-        <h1>Cabinet d'avocats</h1>
-      </header>
+      
+    <%- include('../partials/header.ejs') %> 
 
     <%- include('../partials/nav.ejs') %>
-require('../js/stickyNavbar.js')
 
       <div class="gestZone">
         <article id="honoraires">
@@ -46,30 +43,15 @@ require('../js/stickyNavbar.js')
             ce qui concerne le compte rendu des actions menées que les éléments
             de facturation.
           </p>
-          <p>
-            Le montant des honoraires est déterminé en fonction de la complexité
-            de l'affaire et de l'importance des intérêts en cause.
-          </p>
-          <p>
-            Si le client décide, en accord avec l'avocat, qu’une procédure doit
-            être engagée ou poursuivie, en demande ou en défense, une convention
-            d'honoraires sera signée.
-          </p>
-          <p>
-            Dans tous les cas, le montant des honoraires est établi en accord
-            avec le client.
-          </p>
+    
           <button class="button" onclick="location.href='./expertise.html'">
             En savoir plus sur notre cabinet !
           </button>
         </article>
       </div>
       <!-- /gestZone-->
-      <footer>
-        <h3>Accueil</h3>
-        <h3>Plan du site</h3>
-        <h3>Mentions légales</h3>
-      </footer>
+
+      <%- include('../partials/footer.ejs') %>
     </div>
     <!-- /container -->
   </body>
